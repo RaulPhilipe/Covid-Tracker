@@ -1,2 +1,2 @@
 # Covid-Tracker
-Um aplicativo de rastreador de covid muito simples, feito como projeto acadêmico.
+Um aplicativo de rastreador de covid muito simples, feito para um projeto acadêmico.
