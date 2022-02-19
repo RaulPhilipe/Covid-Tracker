@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_global">
+
+    <fragment
+        android:id="@+id/navigation_global"
+        android:name="com.example.covidtracker.ui.home.HomeFragment"
+        android:label="@string/title_global"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_brazil"
+        android:name="com.example.covidtracker.ui.brazil.BrazilFragment"
+        android:label="@string/title_brazil"
+        tools:layout="@layout/fragment_brazil" />
+
+    <fragment
+        android:id="@+id/navigation_medical"
+        android:name="com.example.covidtracker.ui.medical.MedicalFragment"
+        android:label="@string/title_medical"
+        tools:layout="@layout/fragment_medical" />
+
+    <fragment
+        android:id="@+id/navigation_sick"
+        android:name="com.example.covidtracker.ui.sick.SickFragment"
+        android:label="@string/title_sick"
+        tools:layout="@layout/fragment_sick" />
+
+</navigation>

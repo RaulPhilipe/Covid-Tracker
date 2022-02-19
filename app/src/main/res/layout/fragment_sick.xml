@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    tools:context=".ui.sick.SickFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Quais os sintomas do COVID-19?"
+                android:textAlignment="center"
+                style="@style/TitleFontStyle"
+                android:id="@+id/title_text"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/symptoms_covid19"
+                android:layout_below="@id/title_text"
+                android:id="@+id/covid_image"
+                android:contentDescription="@string/covid_img_description"/>
+
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/covid_image"
+                android:layout_marginTop="15sp"
+                style="@style/TextFontStyle"
+                android:text="@string/sick_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="O COVID-19 mata?"
+                android:layout_marginTop="15sp"
+                android:textAlignment="center"
+                android:layout_below="@id/text_content"
+                style="@style/TitleFontStyle"
+                android:id="@+id/title_text2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/covid_death"
+                android:layout_below="@id/title_text2"
+                android:id="@+id/covid_image2"
+                android:contentDescription="@string/covid_img_description"/>
+
+            <TextView
+                android:id="@+id/text_content2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/covid_image2"
+                android:layout_marginTop="15sp"
+                style="@style/TextFontStyle"
+                android:text="@string/sick_text2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:text="Recomendações para evitar contrair o COVID-19"
+                android:textAlignment="center"
+                android:layout_below="@id/text_content2"
+                style="@style/TitleFontStyle"
+                android:id="@+id/title_text3"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/covid19_socialdistancing"
+                android:layout_below="@id/title_text3"
+                android:id="@+id/covid_image3"
+                android:contentDescription="@string/covid_img_description"/>
+
+            <TextView
+                android:id="@+id/text_content3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/covid_image3"
+                android:layout_marginTop="15sp"
+                style="@style/TextFontStyle"
+                android:text="@string/sick_text3" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

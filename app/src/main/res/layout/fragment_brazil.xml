@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.brazil.BrazilFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp"
+            android:text="COVID-19\nCasos do Brasil"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalConfirmed"
+            android:textAlignment="center"
+            android:id="@+id/LabelTotalConfirmed"
+            style="@style/LabelFontStyle"
+            android:text="Total Confirmado"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalConfirmed"
+            android:textAlignment="center"
+            android:id="@+id/TotalConfirmed"
+            style="@style/TotalFontStyle"
+            tools:text="555555"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalDeaths"
+            android:textAlignment="center"
+            android:id="@+id/LabelTotalDeath"
+            style="@style/LabelFontStyle"
+            android:text="Total de Mortes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalDeaths"
+            android:textAlignment="center"
+            android:id="@+id/TotalDeath"
+            style="@style/TotalFontStyle"
+            tools:text="444444"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalRecovered"
+            android:textAlignment="center"
+            android:id="@+id/LabelTotalRecovered"
+            style="@style/LabelFontStyle"
+            android:text="Total de Recuperados"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalRecovered"
+            android:textAlignment="center"
+            android:id="@+id/TotalRecovered"
+            style="@style/TotalFontStyle"
+            tools:text="333333"/>
+
+        <TextView
+            android:id="@+id/TextvLastUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelFontStyle"
+            android:textColor="#000"
+            tools:text="Ultima atualização\n Mon, 23 Mar 2021 12:20:30 PM"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

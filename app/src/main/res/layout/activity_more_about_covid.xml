@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.medical.MoreAboutCovid">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/RelativeTextContainer">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_below="@id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Porque o nome é COVID-19?"
+                android:textAlignment="center"
+                style="@style/TitleFontStyle"
+                android:id="@+id/title_text"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/covid19_nameimg"
+                android:layout_below="@id/title_text"
+                android:id="@+id/covid_image"
+                android:contentDescription="@string/covid_img_description"/>
+
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/covid_image"
+                android:layout_marginTop="15sp"
+                style="@style/TextFontStyle"
+                android:text="@string/more_covid_text" />
+
+            <TextView
+                android:layout_below="@id/text_content"
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Como o COVID-19 é transmitido"
+                android:textAlignment="center"
+                style="@style/TitleFontStyle"
+                android:id="@+id/title_text2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/covid19_infectionimg"
+                android:layout_below="@id/title_text2"
+                android:id="@+id/covid_image2"
+                android:contentDescription="@string/covid_img_description"/>
+
+            <TextView
+                android:id="@+id/text_content2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/covid_image2"
+                android:layout_marginTop="15sp"
+                style="@style/TextFontStyle"
+                android:text="@string/more_covid_text2" />
+
+            <TextView
+                android:layout_below="@id/text_content2"
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="match_parent"
+                android:text="Posso transmitir COVID-19 mesmo sem apresentar sintomas?"
+                style="@style/TitleFontStyle"
+                android:id="@+id/title_text3"/>
+
+            <TextView
+                android:id="@+id/text_content3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/title_text3"
+                android:layout_marginTop="15sp"
+                style="@style/TextFontStyle"
+                android:text="@string/more_covid_text3" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

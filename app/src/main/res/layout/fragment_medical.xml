@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    tools:context=".ui.medical.MedicalFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="O que é COVID-19"
+               android:textAlignment="center"
+               style="@style/TitleFontStyle"
+               android:id="@+id/title_text"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="250sp"
+               android:src="@drawable/covid19img"
+               android:layout_below="@id/title_text"
+               android:id="@+id/covid_image"
+               android:contentDescription="@string/covid_img_description"/>
+
+           <TextView
+               android:id="@+id/text_content"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@id/covid_image"
+               android:layout_marginTop="15sp"
+               style="@style/TextFontStyle"
+               android:text="@string/covid_text" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Origens do COVID-19"
+               android:textAlignment="center"
+               android:layout_marginTop="15sp"
+               style="@style/TitleFontStyle"
+               android:layout_below="@id/text_content"
+               android:id="@+id/title_text2"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="250sp"
+               android:src="@drawable/covid_originimg"
+               android:layout_below="@id/title_text2"
+               android:id="@+id/covid_origin_img"
+               android:contentDescription="@string/covid_img_description"/>
+
+           <TextView
+               android:id="@+id/text_content2"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@id/covid_origin_img"
+               android:layout_marginTop="15sp"
+               style="@style/TextFontStyle"
+               android:text="@string/covid_text2" />
+
+           <Button
+               android:layout_width="200sp"
+               android:layout_height="50sp"
+               android:layout_marginTop="15sp"
+               android:layout_below="@id/text_content2"
+               android:layout_centerInParent="true"
+               android:backgroundTint="@color/colorPrimaryDark"
+               android:textColor="@color/colorPrimary"
+               style="@style/TextFontStyle"
+               android:text="Leia Mais"
+               android:id="@+id/MoreButton1"/>
+       </RelativeLayout>
+   </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

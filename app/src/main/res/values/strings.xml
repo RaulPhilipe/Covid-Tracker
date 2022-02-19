@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid Tracker</string>
+    <string name="title_global">Global</string>
+    <string name="title_brazil">Brasil</string>
+    <string name="title_medical">Sobre o COVID-19</string>
+    <string name="title_sick">Sintomas e Recomendações</string>
+    <string name="covid_img_description">Imagem ilustrativa do Corona Virus</string>
+
+    <string name="covid_text">
+        O COVID-19 é um vírus que causa doenças respiratórias, ele foi identificado pela primeira vez em dezembro de 2019 na cidade de Wuhan localizada na China, os coronavírus são uma família viral, conhecida desde meados de 1960, que causam infecções respiratórias em humanos e animais. Geralmente, infecções causadas por coronavírus são leves ou moderadas, semelhantes aos resfriados comuns porém alguns tipos de coronavírus como o COVID-19, <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/sars-srag-sindrome-respiratoria-aguda-grave/">SARS</a> ou o <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/sindrome-respiratoria-do-oriente-medio-mers/">MERS</a> podem causar doenças graves que causam um impacto forte em termos de saúde pública.
+    </string>
+
+    <string name="covid_text2">
+        Novos vírus são descobertos o tempo todo, grande parte dos vírus são transmitidos de espécies, onde acabam passando despercebidos para os humanos assim como aconteceu com a <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/sars-srag-sindrome-respiratoria-aguda-grave/">SARS</a> que foi transmitida para os seres humanos atráves de um animal conhecido como <a href="https://pt.wikipedia.org/wiki/Civettictis_civetta">gato-de-algália</a>, que era considerado uma especiaria em Guangdong localizada na China.\n\n
+        Apesar da origem do COVID-19 ainda ser incerta as principais teorias levantadas apontavam para o contato entre um ser humano e um animal infectado, no final de março, a OMS(Organização Mundial da Saúde) divulgou um <a href="https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part">relatório de 120 páginas</a>, desenvolvido por cientistas da China e de outras partes do mundo, que reforçou a origem natural da epidemia. A tese mais aceita diz que o vírus passou do morcego para um mamífero intermediário, e dele para o ser humano. A transmissão de um morcego diretamente para um humano também foi apontada como uma hipótese possível e provável.
+    </string>
+
+    <string name="more_covid_text">
+        O \"Co\" significa corona, \"vi\" vem de vírus, e \"d\" representa doença. O número 19 indica o ano de sua aparição, 2019. Esse nome substitui o de 2019-nCoV, decidido provisoriamente após o surgimento da doença respiratória. O novo nome foi escolhido por ser fácil de pronunciar e não ter referência estigmatizante a um país ou a uma população em particular.
+    </string>
+
+    <string name="more_covid_text2">
+        A transmissão dos coronavírus costuma ocorrer por contato pessoal com secreções contaminadas, como:\n\n
+            <li>gotículas de saliva;</li>\n
+            <li>espirro;</li>\n
+            <li>tosse;</li>\n
+            <li>catarro;</li>\n
+            <li>contato pessoal próximo, como toque, abraço ou aperto de mão;</li>\n
+            <li>contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.</li>\n\n
+        Pessoas a menos de um metro e meio de um indivíduo infectado correm maior risco de inalar essas gotículas.
+    </string>
+
+    <string name="more_covid_text3">
+        A resposta é sim, esse tipo de transmissão é chamado de \"disseminação pré-sintomática\", o que significa que uma pessoa continuará desenvolvendo sintomas. Em outros casos, conhecido como \"disseminação assintomática\", em que um indivíduo nunca desenvolve sintomas, mas ainda pode ser contagioso. A disseminação assintomática pode representar até um quarto das transmissões do vírus e, segundo o <a href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html">CDC dos EUA, cerca de 35% das pessoas infectadas são assintomáticas</a>.
+    </string>
+
+    <string name="sick_text">
+        Os principais sintomas e sinais são respiratórios, como por exemplo:\n\n
+        <li>febre que não cessa mesmo com remédio;</li>\n
+        <li>tosse seca ou com catarro;</li>\n
+        <li>dificuldade para respirar.</li>\n\n
+        Outros sintomas que podem aparecer são fadiga, dor articular, arrepios, náusea ou vômito, nariz entupido, tosse com sangue, olhos inchados, perda de olfato ou paladar, dores na caixa torácica, problemas de pele como urticária ou frieira nos dedos dos pés, além de problemas neurológicos.\n\n
+        Esses sintomas são normalmente leves e podem progredir. Muitas pessoas infectadas não desenvolvem os sintomas nem sentem-se mal. Cerca de 80% dos casos se recuperam sem tratamento especial. No entanto, 1 em cada 6 casos tem grave falta de ar. Idosos, pessoas com diabetes, pressão alta e outros problemas cardiovasculares são mais suscetíveis a desenvolver sintomas sérios.
+    </string>
+
+    <string name="sick_text2">
+        A resposta é sim, a morte pode ocorrer por complicações da infecção, principalmente respiratórias. Nos casos mais graves, a pessoa pode ter que ser intubada e passar semanas na UTI (unidade de terapia intensiva), mas vale ressaltar que leva tempo até que uma infecção resulte em recuperação ou morte.
+    </string>
+
+    <string name="sick_text3">
+        O Ministério da Saúde orienta cuidados básicos para reduzir o risco geral de contrair ou transmitir infecções respiratórias agudas, incluindo o novo coronavírus. Entre as medidas estão:\n\n
+        <li>Lavar as mãos frequentemente com água e sabonete por pelo menos 20 segundos. Se não houver água e sabonete, usar um desinfetante para as mãos à base de álcool;</li>\n
+        <li>Usar máscara ao sair de casa;</li>\n
+        <li>Evitar contato próximo com pessoas doentes;</li>\n
+        <li>Evitar tocar nos olhos, nariz e boca com as mãos não lavadas;</li>\n
+        <li>Ficar em casa quando estiver doente;</li>\n
+        <li>Limpar e desinfetar objetos e superfícies tocados com frequência;</li>\n
+        <li>Cobrir boca e nariz ao tossir ou espirrar com um lenço de papel e jogar no lixo, ou com o antebraço;</li>\n
+        <li>Evitar abraços, beijos e apertos de mãos;</li>\n
+        <li>Manter distância de até 1,5 metro das pessoas.</li>\n\n
+        Profissionais de saúde devem utilizar medidas de precaução padrão, de contato e de gotículas (máscara cirúrgica, luvas, avental não estéril e óculos de proteção).
+    </string>
+
+</resources>
